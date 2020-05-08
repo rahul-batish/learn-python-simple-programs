@@ -1,8 +1,7 @@
-n=int(input("the the number of list numbers: "))
-list=[]
-for x in range(n):
-    nu=int(input("write the nummber and hit enter: "))
-    list.append(nu)
-for y in list:
-    if y>=0:
-        print(y,end=" ")
+while True:
+    n=input("list: ")
+    n2=n[1:len(n)-1].split(",")
+    for x in n2:
+        if int(x)>=0:
+            print(x,end=" ")
+    print("\n")
