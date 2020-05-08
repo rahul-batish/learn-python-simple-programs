@@ -1,0 +1,8 @@
+n=int(input("the the number of list numbers: "))
+list=[]
+for x in range(n):
+    nu=int(input("write the nummber and hit enter: "))
+    list.append(nu)
+for y in list:
+    if y>=0:
+        print(y,end=" ")
