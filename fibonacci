@@ -1,0 +1,13 @@
+n = int(input("write the number of fibonacci numbers you want: "))
+n1 = 0
+n2 = 1
+print("0")
+for x in range(n+1):
+    if x > 2:
+        n3 = n2 + n1
+        print(n3)
+        n1=n2
+        n2=n3
+
+    elif x == 2:
+        print("1")
